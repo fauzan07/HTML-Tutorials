@@ -97,16 +97,55 @@
         <a href="https://amazon.in">Amazon link</a>
         </div>
 
-        <form type="submit" method="POST" action="thankyou.html">
-            <lable>Enter Name</lable>
+        <form type="submit" method="post" action="thankyou.html">
+            <label>Enter Name</label><br/>
             <input type="text" name="name" class="name" id="fname" placeholder="enter your name" required></input>
-
-            <lable>Enter Phone No</lable>
+                <br/><br/>
+            <label>Enter Phone No</label><br/>
             <input type="number" name="phone" class="phone" id="fphone" placeholder="enter your  Phone No"></input>
+            <br/><br/>
 
-            <lable>Enter Email</lable>
+            <label>Enter Email</label><br/>
             <input type="email" name="email" class="email" id="femail" value="fauanfalke@gmail.com" readonly></input>
+            <br/><br/>
 
+            <label>Enter password</label><br/>
+            <input type="password" name="password" class="password" id="password"></input>
+            <br/><br/>
+
+            <br/><br/>
+            <label>Choose Subjects</label>
+            <input type="checkbox" name="maths" value="maths">maths</input>
+            <input type="checkbox" name="english" value="english">English</input>
+            <input type="checkbox" name="science" value="science">science</input>
+
+            <br/><br/>
+            <label>select Gender</label>
+            <input type="radio" name="gender" id="" value="male">Male</input>
+            <input type="radio" name="gender" id="" value="female">Female</input>
+
+            <br/><br/>
+            <label>select course</label>
+            <select>
+                <option value="" selected></option>
+                <option value="frontend">frontend</option>
+                <option value="backend">backend</option>
+                <option value="fullstack">fullstack</option>
+                <option value="mernstack">mernstack</option>
+            </select>
+            <br/><br/>
+            <label>select date</label>
+            <br/>
+            <input type="date" name="" id=""></input>
+
+            <br/><br/>
+            <label>select date</label>
+            <br/>
+            <input type="file"/></inpup>
+            <br/><br/>
+            <label>Enter Message</label>
+            <br/>
+            <textarea type="text" placeholder="enter message....." cols="50" rows="10"></textarea>
             <input type="submit"></input>
             <!-- <button type="button">click me</button> -->
 
